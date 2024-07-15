@@ -1,0 +1,37 @@
+ja:
+  devise:
+    failure:
+      invalid: '無効な%{authentication_keys}またはパスワードです。'
+      user:
+        invalid: '無効な%{authentication_keys}またはパスワードです。'
+    sessions:
+      signed_in: 'ログインしました。'
+      signed_out: 'ログアウトしました。'
+      already_signed_out: 'すでにログアウトしています。'
+    passwords:
+      send_instructions: 'パスワード再設定の手順を送信しました。'
+      updated: 'パスワードを変更しました。'
+      updated_not_active: 'パスワードを変更しました。'
+    registrations:
+      signed_up: 'アカウント登録が完了しました。'
+      updated: 'アカウント情報を更新しました。'
+      destroyed: 'アカウントを削除しました。'
+      signed_up_but_inactive: 'アカウント登録が完了しましたが、まだ有効化されていません。'
+      signed_up_but_locked: 'アカウント登録が完了しましたが、アカウントがロックされています。'
+      signed_up_but_unconfirmed: 'アカウント登録が完了しましたが、確認メールを確認する必要があります。'
+    confirmations:
+      send_instructions: '確認メールを送信しました。'
+      confirmed: 'アカウントが確認されました。'
+    unlocks:
+      send_instructions: 'アカウントのロック解除手順を送信しました。'
+      unlocked: 'アカウントのロックが解除されました。'
+    omniauth_callbacks:
+      success: '%{kind}アカウントでのログインに成功しました。'
+      failure: '%{kind}アカウントでのログインに失敗しました。'
+    mailer:
+      confirmation_instructions:
+        subject: 'アカウント確認メール'
+      reset_password_instructions:
+        subject: 'パスワード再設定のご案内'
+      unlock_instructions:
+        subject: 'アカウントロック解除のご案内'
